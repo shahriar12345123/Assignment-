@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh 2.0</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .baner {
+            background-color: #90d6b6; 
+            padding: 50px;
+            display: flex; 
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 28px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            
+        }
+
+        .baner-image {
+            max-width: 50%; 
+            margin-left: 30px;
+            border-radius: 10px; 
+        }
+
+        .banner-cultivate {
+            max-width: 50%;
+            
+        }
+
+        .banner-cultivate h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .banner-cultivate button {
+            background-color: #1b7996;
+            color: #fff;
+            padding: 15px 30px;
+            border: 2px solid #6ee09d;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        .boro-vai {
+            max-width: 100%; 
+            margin: 0 auto;
+            overflow-x: auto; 
+            display: flex; 
+            flex-wrap: nowrap; 
+            gap: 20px; 
+            
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 18px;
+        }
+
+        .card {
+            background-color: #00008B;
+            border-radius: 28px;
+            padding: 20px;
+            vertical-align: top;
+            width: 300px; 
+            flex-shrink: 0; 
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        .card img {
+            
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            float: left;
+        }
+
+        .card h2 {
+            margin-top: 0; 
+        }
+
+
+        
+        
+        .boro-vai h2 , .dustu{
+            color: #fff;
+        }
+        .hub {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #recent {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .item {
+            display: flex;
+            align-items: flex-start;
+            background-color: #9ac0d6;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        
+
+        .item:nth-child(odd) {
+            flex-direction: row-reverse; 
+        }
+
+        .image {
+            width: 30%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 15px;
+        }
+
+        .item:nth-child(even) .news-image {
+            margin-right: 0;
+            margin-left: 20px;
+        }
+
+        .tara {
+            width: 70%;
+        }
+
+        .title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .sutro {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .sutro img {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .date {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .bolo {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .more {
+            color: #2b8edf;
+            border: 2px solid rgb(230, 7, 218);
+            background-color: rgb(255, 136, 0) ;
+            border-radius: 5px;
+        }
+        .done {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.heda {
+  margin-bottom: 20px;
+}
+
+#mal {
+  margin-bottom: 30px;
+}
+
+.takla {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.money {
+  background-color: #c9e1c3;
+  border: 1px solid #99b999;
+  border-radius: 15px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.money:hover {
+  background-color: #8bc4c4;
+}
+
+input[type="text"] {
+    width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.middle{
+    background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+.sanyleon {
+            background-color: #89ebbab2;
+            padding: 30px;
+            border-radius: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            
+        }
+
+        #callgirl {
+            margin-bottom: 20px;
+        }
+
+        .mymenshingh {
+            display: flex; 
+            gap: 0; 
+        }
+
+        input[type="email"] {
+            flex: 1; 
+            padding: 12px;
+            border: 1px solid #ddb8b8;
+            border-radius: 9px;
+        }
+
+        #turkey {
+            background-color: #008000;
+            color: #fff;
+            padding: 10px 20px;
+            border: 1px solid silver;
+            border-radius: 9px;
+            cursor: pointer;
+        }
+
+        .aim {
+            margin-top: 20px;
+        }
+        #horny{
+            background-color: #83a583;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+    <div class="baner">
+        <div class="banner-cultivate">
+            <h1><br>Innovation Bangladesh 2.0, <br> vision and challenges in<br>New Bangladesh.</h1>
+            <button class="hot">Explore New Bangladesh 2.0</button>
+        </div>
+        <img src="assets/hero.png" alt="Bangladesh Image" class="banner-image">
+    </div>
+    
+   </header>
+   <section>
+    <h1>The Vision of Future</h1>
+    <p>Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.</p>
+    
+    <div class="boro-vai">
+        <div class="card">
+            <img src="assets/card-icon.png" alt="Thinking Image"> 
+            <h2><strong>Tech Industry</strong></h2>
+            <p class="dustu">IT industry in Bangladesh was experiencing significant growth, driven by factors such as government initiatives, increased internet penetration, and a growing pool of skilled IT professionals.</p>
+            <button class="more">Learn More</button>
+        </div>
+    
+        <div class="card">
+            <img src="assets/card-icon.png" alt="Thinking Image"> 
+            <h2><strong>Natural Climates</strong></h2>
+            <p class="dustu">Bangladesh is a land of natural calamities. Flood, cyclone, drought, famine destroy life and property every year. People live here fighting against the frequent natural calamities. In recent years our country has experienced a great number of natural calamities.</p>
+            <button class="more">Learn More</button>
+        </div>
+    
+        <div class="card">
+            <img src="assets/card-icon.png" alt="Thinking Image"> 
+            <h2><strong>Education System Develop</strong></h2>
+            <p class="dustu">The foundation of the educational system in Bangladesh was laid down during the period of British rule. The system has three levels—primary, secondary, and higher education. Primary and secondary education are both compulsory, though universal participation has remained more an ideal than a fact.</p>
+            <button class="more">Learn More</button>
+        </div>
+    </div>
+   </section>
+   <section>
+    <div class="container">
+        <h1 id="recent">Recent News</h1>
+    
+        <div class="item">
+            <img class="image" src="assets/satelite.png" alt="Satellite Image">
+            <div class="tara">
+                <h2 class="title">Bangladesh Launches New Satellite</h2>
+                <div class="sutro">
+                    <img src="assets/al-jazeera.png" alt="Al Jazeera Logo" height="20">
+                    <span>ALJAsZEERA</span>
+                </div>
+                <div class="date">Date: 05/01/2025 Time: 10:25 PM</div>
+                <p class="bolo">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we, with a certain degree of justification, be able to speak of humankind as civilized.</p>
+               <button class="more">Read more...</button>
+            </div>
+        </div>bolo
+    
+        <div class="item">
+            <img class="image" src="assets/satelite.png" alt="Satellite Image">
+            <div class="tara">
+                <h2 class="title">Bangladesh Launches New Satellite</h2>
+                <div class="sutro">
+                    <img src="assets/al-jazeera.png" alt="Al Jazeera Logo" height="20">
+                    <span>ALJsZEERA</span>
+                </div>
+                <div class="date">Date: 05/01/2025 Time: 10:25 PM</div>
+                <p class="bolo">Not until the creation and maintenance of decent conditions of life for all people are recognized and accepted as a common obligation of all people and all countries—not until then shall we, with a certain degree of justification, be able to speak of humankind as civilized.</p>
+                <button class="more">Read more...</button>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="horny">
+    <div class="done">
+        <h1 class="heda">Donate Today</h1>
+      
+        <p id="mal">Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure.</p>
+      
+        <div class="takla">
+          <button class="money">100 Taka</button>
+          <button class="money">200 Taka</button>
+          <button class="money">500 Taka</button>
+          <button class="money">1000 Taka</button>
+        </div>
+      
+        <input type="text" placeholder="Other Amount (Taka)">
+      
+        <button type="submit" class="middle">Donate Now</button>
+      </div>
+   </section>
+   <section>
+    <div class="sanyleon">
+        <h1 id="callgirl">Subscribe Newsletter</h1>
+        <p class="aim">Bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting inclusive growth.</p>
+    
+        <div class="mymenshingh">
+            <input type="email" placeholder="Enter your email here">
+            <button id="turkey">Subscribe</button>
+        </div>
+    
+        <p class="aim">We promise we are spam with you!</p>
+    </div>
+   </section>
+</body>
+</html>
